@@ -1,7 +1,7 @@
 {
   "name": "mern-social-media",
   "version": "1.0.0",
-  "description": "",
+  "description": "Social media application",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,13 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-foreman/deepest-thoughts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevin-foreman/deepest-thoughts/issues"
+  },
+  "homepage": "https://github.com/kevin-foreman/deepest-thoughts#readme"
 }
