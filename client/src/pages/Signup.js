@@ -23,6 +23,7 @@ const Signup = () => {
 
     // use try/catch instead of promises to handle errors
     try {
+      // execute addUser mutation and pass in variable data from form
       const { data } = await addUser({
         variables: { ...formState }
       });
